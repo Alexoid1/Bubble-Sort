@@ -5,7 +5,7 @@ def bubble_sort (arra)
     loop do 
         
         my_array.map.with_index do |num , i|
-            puts "valor#{num} en el indice#{i}"
+            puts "The value #{num} is on index #{i}"
             if i==n
                 return my_array
             else 
