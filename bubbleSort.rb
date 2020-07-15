@@ -5,7 +5,7 @@ def bubble_sort (arra)
     loop do 
         
         my_array.map.with_index do |num , i|
-            puts "valor#{num} en el indice#{i}"
+            puts "value #{num} the index is #{i}"
             if i==n
                 return my_array
             else 
@@ -20,3 +20,27 @@ def bubble_sort (arra)
 end
 ar=[4, 3, 78, 2, 0, 2]
 p bubble_sort(ar)
+
+def bubble_sort_by (arrStr)
+    my_array2=arrStr
+    n=arrStr.length-1
+    puts n
+    loop do 
+        
+        my_array2.map.with_index do |str , i|
+            puts "value #{str} the index is #{i}"
+            if i==n
+                return my_array2
+            else 
+                if my_array2[i].length > my_array2[i + 1].length
+                    my_array2[i], my_array2[i + 1] = my_array2[i + 1], my_array2[i]
+                    
+                    break        
+                end    
+            end              
+        end              
+    end
+end
+
+ar2=["hello", "hey", "hi"]
+p bubble_sort_by (ar2)
