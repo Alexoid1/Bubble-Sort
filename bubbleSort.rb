@@ -1,14 +1,22 @@
-def bubble_sort (array)
-    array.each do |x|
-        if array[x] > array[x+1]
-            array[x],array[x+1]=array[x+1],array[x]
-            
-        else 
-            
-        end        
-
+def bubble_sort (arra)
+    my_array=arra
+    n=arra.length-1
+    puts n
+    loop do 
+        
+        my_array.map.with_index do |num , i|
+            puts "valor#{num} en el indice#{i}"
+            if i==n
+                return my_array
+            else 
+                if my_array[i] > my_array[i + 1]
+                    my_array[i], my_array[i + 1] = my_array[i + 1], my_array[i] 
+                    
+                    break        
+                end    
+            end              
+        end              
     end
-    puts array
-
 end
-bubble_sort([4,3,78,2,0,2])
+ar=[4, 3, 78, 2, 0, 2]
+p bubble_sort(ar)
