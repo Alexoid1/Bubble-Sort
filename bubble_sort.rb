@@ -3,7 +3,6 @@ def bubble_sort(my_array)
   loop do
     my_array.map.with_index do |_num, i|
       return my_array unless i != my_array.length - 1
-      
       if my_array[i] > my_array[i + 1]
         my_array[i], my_array[i + 1] = my_array[i + 1], my_array[i]
         break
