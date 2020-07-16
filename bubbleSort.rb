@@ -41,6 +41,9 @@ def bubble_sort_by (arrStr)
         end              
     end
 end
-
 ar2=["hello", "hey", "hi"]
-p bubble_sort_by (ar2)
+result = bubble_sort_by(ar2) do |left,right|
+    left.length - right.length
+end
+
+p result
