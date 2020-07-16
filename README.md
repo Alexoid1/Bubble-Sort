@@ -3,7 +3,7 @@
 
 > Bubble Sort algorithm is developed in ruby. (Luis and Alex)
 
-![screenshot](./images/screencapture2.png)
+![screenshot](screen.png)
 
 Additional description about the project and its features.
 
@@ -31,14 +31,14 @@ To get a local copy  and to set it up and running follow these simple example st
 - Text Editor (VSCode is suggested.)
 - Ruby
 
-- Download the code from repository () 
+
 
 ### Setup
 - Install git
 - Open Terminal
 - Change directory to folder to download repository
 - Use cd <file-path>
-- Run git clone https://github.com/umairarshadbutt/Bubble-Sort
+- Run git clone https://github.com/Alexoid1/Bubble-Sort
 - Install Ruby
 - Run ruby main.rb
 
