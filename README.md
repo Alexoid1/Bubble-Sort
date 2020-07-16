@@ -22,16 +22,6 @@ Ruby
 
 ## Getting Started
 
-**Navigation bar**
-- Go to [the next web ](https://thenextweb.com/) and have a look around. The form isn’t exceptionally complicat
-This project consists set responsivity in every element on the project[The next web](https://thenextweb.com/) website
-We have a cloned webpage built with following features:
-
-In this project:
-- Used float, flex and grid.
-- Used 3 different css files to set responsivity.
-- Resposivity on every Element of the project
-- HTML and CSS.
 
 
 To get a local copy  and to set it up and running follow these simple example steps.
@@ -43,7 +33,7 @@ To get a local copy  and to set it up and running follow these simple example st
 
 - Download the code from repository () 
 
-##Setup
+### Setup
 -Install git
 -Open Terminal
 -Change directory to folder to download repository
