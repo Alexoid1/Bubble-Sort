@@ -3,7 +3,7 @@
 
 > Bubble Sort algorithm is developed in ruby. (Luis and Alex)
 
-![screenshot](screen.png)
+![screenshot](projectScreen.png)
 
 Additional description about the project and its features.
 
@@ -12,12 +12,13 @@ Ruby
 
 ## Built With
 
-- Ruby,
+- Ruby
+- Rubocop
 
 
 ## Live Demo
 
-[Live Demo Link](https://repl.it/join/ufbaipxm-alexzambrano)
+[Hosted on repl.it](https://repl.it/@pipe2442/bubbleSort#main.rb)
 
 
 ## Getting Started
@@ -56,7 +57,7 @@ To get a local copy  and to set it up and running follow these simple example st
  
 - Github: [@pipe2442](https://github.com/pipe2442)
 - Twitter: [@pipe2442](https://twitter.com/pipe2442)
-- Linkedin: [linkedin]()
+- Linkedin: [linkedin](https://www.linkedin.com/in/luis-felipe-angulo-torres-95098b139/)
 
 ## Show your support
 
