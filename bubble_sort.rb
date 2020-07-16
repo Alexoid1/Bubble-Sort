@@ -1,4 +1,3 @@
-
 def bubble_sort(my_array)
   loop do
     my_array.map.with_index do |_num, i|
