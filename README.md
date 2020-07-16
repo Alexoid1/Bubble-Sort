@@ -34,13 +34,13 @@ To get a local copy  and to set it up and running follow these simple example st
 - Download the code from repository () 
 
 ### Setup
--Install git
--Open Terminal
--Change directory to folder to download repository
--Use cd <file-path>
--Run git clone https://github.com/umairarshadbutt/Bubble-Sort
--Install Ruby
--Run ruby main.rb
+- Install git
+- Open Terminal
+- Change directory to folder to download repository
+- Use cd <file-path>
+- Run git clone https://github.com/umairarshadbutt/Bubble-Sort
+- Install Ruby
+- Run ruby main.rb
 
 ## Authors
 
@@ -59,9 +59,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
 - Inspiration
-- Responsivity to elements
+- Algorith solving
 - etc
 
 ## 📝 License
