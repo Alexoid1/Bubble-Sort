@@ -51,7 +51,9 @@ To get a local copy  and to set it up and running follow these simple example st
 - Twitter: [@pablo_acz](https://twitter.com/pablo_acz)
 - Linkedin: [linkedin](https://www.linkedin.com/in/pablo-alexis-zambrano-coral-7a614a189/)
 
-
+- Github: [@pipe2442](https://github.com/pipe2442)
+- Twitter: [@pipe2442](https://twitter.com/pipe2442)
+- Linkedin: [linkedin]()
 
 ## Show your support
 
