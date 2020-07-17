@@ -13,21 +13,21 @@ end
 ar = [4, 3, 78, 2, 98, 0, 2, 1]
 p bubble_sort(ar)
 
-def sort_by(array2)
-  loop do
-    array2.map.with_index do |_str, i|
-      return array2 unless i != array2.length - 1
+def bubble_sort_by(array)
+  n = array.length
+  count = 0
+  while count <= n
+    (n - 1).times do |i|
+      next unless yield(array[i], array[i + 1]).positive?
 
-      if array2[i].length > array2[i + 1].length
-        array2[i], array2[i + 1] = array2[i + 1], array2[i]
-        break
-      end
+      array[i], array[i + 1] = array[i + 1], array[i]
     end
+    count += 1
   end
+  array
 end
 
-ar2 = %w[hello r hellomyfriends hey hi]
-result = sort_by(ar2) do |left, right|
+c = bubble_sort_by(%w[marshall hi hello hey]) do |left, right|
   left.length - right.length
 end
-p result
+puts c
