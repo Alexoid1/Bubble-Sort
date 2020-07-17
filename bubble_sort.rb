@@ -27,7 +27,7 @@ def bubble_sort_by(array)
   array
 end
 
-c = bubble_sort_by(%w[marshall hi hello hey]) do |left, right|
+c = bubble_sort_by(%w[yieldddd added hi hello hey]) do |left, right|
   left.length - right.length
 end
 puts c
